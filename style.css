@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+    background-color: black;
+    color: black;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+
+.Converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 2rem;
+    margin: 4rem 30% 4rem 30%;
+    border-radius: 3rem;
+    border: .5rem solid black; 
+    border-radius: 1rem;
+    min-height: 40vh;
+}
+
+.mode {
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    max-width: 8vh;
+}
+
+form h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, select, button {
+    width: 100%;
+}
+
+form input {
+    border: 1px solid lightgray;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.fa-solid {
+    margin: .3rem .3rem .3rem .3rem;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+
+.exchange-btn {
+
+    height: 3rem;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    background-color: #af4d98;
+    color: white;
+    cursor: pointer;
+}
+
+.exchange-btn:active{
+    background-color : rgb(113, 47, 134);
+    color: rgb(217, 185, 241);
+}
+
+
+.select-container select{
+    padding: .3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
