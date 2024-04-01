@@ -72,7 +72,7 @@ window.addEventListener("load", () => {
 });
 
 
-let currMode = "dark";
+let currMode = "light";
 
 const change = () => { 
 

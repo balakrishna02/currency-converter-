@@ -9,7 +9,7 @@
 }
 
 .light{
-    background-color: white;
+    background-color: #f2e9e4;
     color: black;
 }
 
@@ -18,13 +18,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: #bbd0ff;
     padding: 2rem;
     margin: 4rem 30% 4rem 30%;
     border-radius: 3rem;
-    border: .5rem solid black; 
+    border: .1rem solid black; 
+    
     border-radius: 1rem;
     min-height: 40vh;
+}
+
+.Converter:hover{
+    box-shadow: 1.5px 1.5px 3px 3px #03045e;
+    border: 0.01rem solid #c8b6ff;
 }
 
 .mode {
@@ -32,6 +38,12 @@
     font-size: 1.3rem;
     border-radius: 50%;
     max-width: 8vh;
+}
+
+.mode-changer{
+    display: flex;
+    justify-content: end;
+    margin-right: 20vh;
 }
 
 form h1 {
